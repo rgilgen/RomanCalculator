@@ -51,10 +51,10 @@ public class Calculator {
             int letterCounter2 = numberRating2.getOrDefault(romanLetter, 0);
             uebertrag = 0;
             int maxRepeatableLetter = evaluateRepetition(romanLetter);
-            int remove = evaluateRemover(maxRepeatableLetter);
+            int overflowRemoval = evaluateOverflow(maxRepeatableLetter);
             if (letterCounter1 + letterCounter2 > maxRepeatableLetter) {
                 uebertrag++;
-                accumulatedRating.put(romanLetter, letterCounter1 + letterCounter2 - remove);
+                accumulatedRating.put(romanLetter, letterCounter1 + letterCounter2 - overflowRemoval);
             } else {
                 accumulatedRating.put(romanLetter, letterCounter1 + letterCounter2);
             }
@@ -62,8 +62,8 @@ public class Calculator {
         return accumulatedRating;
     }
 
-    private int evaluateRemover(int maxRepeatableLetter) {
-        return maxRepeatableLetter==3?5:2;
+    private int evaluateOverflow(int maxRepeatableLetter) {
+        return maxRepeatableLetter == 3 ? 5 : 2;
     }
 
     private int evaluateRepetition(String romanLetter) {
