@@ -10,7 +10,11 @@ class CalculatorTest {
     Calculator testee = new Calculator();
 
     @ParameterizedTest
-    @CsvSource({"I,I,II", "II,I,III"})
+    @CsvSource({
+            "I,I,II",
+            "II,I,III",
+            "II,II,IV",
+            "I, V, VI"})
     void  addIIandIreturnsIII(String number1 , String number2, String expectedResult) {
         String result = testee.calculate(number1, number2);
 

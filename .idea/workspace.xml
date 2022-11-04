@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="Added calculation for I + I" />
-    <list id="88382832-1095-4bff-9e42-a01a147aded3" name="Changes by resgilgen" comment="">
+    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="Added parameterized test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" afterDir="false" />
+    </list>
+    <list id="88382832-1095-4bff-9e42-a01a147aded3" name="Changes by resgilgen" comment="Changes by resgilgen">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +28,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="5" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
+        <range start1="4" end1="4" start2="7" end2="9" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+        <range start1="5" end1="6" start2="10" end2="24" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+        <range start1="7" end1="7" start2="25" end2="27" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +68,22 @@
       <recent name="ch.css.kata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.addIandIreturnsII">
+  <component name="RunManager" selected="JUnit.CalculatorTest.addIIandIreturnsIII (1)">
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.css.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.css.kata" />
+      <option name="MAIN_CLASS_NAME" value="ch.css.kata.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.addIIandIreturnsIII (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanCalculator" />
       <extension name="coverage">
@@ -123,6 +150,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII (1)" />
         <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII" />
         <item itemvalue="JUnit.CalculatorTest.addIandIreturnsII" />
@@ -138,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667551508185</updated>
-      <workItem from="1667551509587" duration="2247000" />
+      <workItem from="1667551509587" duration="4284000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667551600053</created>
@@ -161,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667553130330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes by resgilgen">
+      <created>1667553828449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667553828449</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +217,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Added first class and test" />
     <MESSAGE value="Added calculation for I + I" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added calculation for I + I" />
+    <MESSAGE value="Changes by resgilgen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by resgilgen" />
   </component>
 </project>
