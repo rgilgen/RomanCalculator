@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="parsen und aufkummulieren von Zahlen">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
-    </list>
+    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="Negative Zahlen evaluieren" />
     <list id="88382832-1095-4bff-9e42-a01a147aded3" name="Changes by resgilgen" comment="Changes by resgilgen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" afterDir="false" />
     </list>
@@ -28,20 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="5" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-        <range start1="4" end1="5" start2="7" end2="8" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-        <range start1="15" end1="19" start2="18" end2="18" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-        <range start1="34" end1="34" start2="33" end2="34" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="35" end1="38" start2="35" end2="45" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="43" end1="47" start2="50" end2="54" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-        <range start1="48" end1="48" start2="55" end2="63" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="49" end1="50" start2="64" end2="68" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -104,22 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.addIIandIreturnsIII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RomanCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch.css.kata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ch.css.kata" />
-      <option name="MAIN_CLASS_NAME" value="ch.css.kata.CalculatorTest" />
-      <option name="METHOD_NAME" value="addIIandIreturnsIII" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CalculatorTest.addIIandIreturnsIII.[1] I, I, II" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanCalculator" />
       <extension name="coverage">
@@ -139,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.addIandIreturnsII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.addIIandIreturnsIII.[5] IV, I, V" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanCalculator" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +117,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.css.kata" />
       <option name="MAIN_CLASS_NAME" value="ch.css.kata.CalculatorTest" />
-      <option name="METHOD_NAME" value="addIandIreturnsII" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:ch.css.kata.CalculatorTest]/[test-template:addIIandIreturnsIII(java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#5]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.addIIandIreturnsIII.[6] V, IV, IX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.css.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.css.kata" />
+      <option name="MAIN_CLASS_NAME" value="ch.css.kata.CalculatorTest" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-jupiter]/[class:ch.css.kata.CalculatorTest]/[test-template:addIIandIreturnsIII(java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#6]" />
+      </uniqueIds>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII.[6] V, IV, IX" />
         <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII.[1] I, I, II" />
+        <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII.[5] IV, I, V" />
         <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII (1)" />
-        <item itemvalue="JUnit.CalculatorTest.addIIandIreturnsIII" />
-        <item itemvalue="JUnit.CalculatorTest.addIandIreturnsII" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667551508185</updated>
-      <workItem from="1667551509587" duration="9737000" />
+      <workItem from="1667551509587" duration="13406000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667551600053</created>
@@ -217,7 +205,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667563899165</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I als negativen Wert eingeführt">
+      <created>1667564954663</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667564954663</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Negative Zahlen evaluieren">
+      <created>1667567466973</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667567466973</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,22 +243,29 @@
     <MESSAGE value="Changes by resgilgen" />
     <MESSAGE value="introduced letter array" />
     <MESSAGE value="parsen und aufkummulieren von Zahlen" />
-    <option name="LAST_COMMIT_MESSAGE" value="parsen und aufkummulieren von Zahlen" />
+    <MESSAGE value="I als negativen Wert eingeführt" />
+    <MESSAGE value="Negative Zahlen evaluieren" />
+    <option name="LAST_COMMIT_MESSAGE" value="Negative Zahlen evaluieren" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="3" />
+          <line>14</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="5" />
+          <line>49</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RomanCalculator$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1667565608965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ch.css.kata.*</FILTER>
+    </SUITE>
   </component>
 </project>

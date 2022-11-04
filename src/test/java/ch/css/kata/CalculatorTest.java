@@ -1,6 +1,5 @@
 package ch.css.kata;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -16,7 +15,7 @@ class CalculatorTest {
             "II,II,IV",
             "I, V, VI",
             "IV, I, V",
-            /*"V, IV, IX",
+            "V, IV, IX"/*,
             "XV,XXXIV,IL",*/ })
     void  addIIandIreturnsIII(String number1 , String number2, String expectedResult) {
         String result = testee.calculate(number1, number2);
