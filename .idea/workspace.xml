@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="Added first class and test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,31 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ch.css.kata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorTest.addIandIreturnsII">
+    <configuration name="CalculatorTest.addIandIreturnsII" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.css.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.css.kata" />
+      <option name="MAIN_CLASS_NAME" value="ch.css.kata.CalculatorTest" />
+      <option name="METHOD_NAME" value="addIandIreturnsII" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.firstDummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanCalculator" />
       <extension name="coverage">
@@ -63,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.addIandIreturnsII" />
         <item itemvalue="JUnit.CalculatorTest.firstDummyTest" />
       </list>
     </recent_temporary>
@@ -75,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667551508185</updated>
-      <workItem from="1667551509587" duration="905000" />
+      <workItem from="1667551509587" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667551600053</created>
@@ -84,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667551600053</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added first class and test">
+      <created>1667552482746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667552482746</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Added first class and test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added first class and test" />
   </component>
 </project>
