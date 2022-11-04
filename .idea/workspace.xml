@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="introduced letter array">
+    <list default="true" id="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" name="Changes" comment="parsen und aufkummulieren von Zahlen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
     </list>
     <list id="88382832-1095-4bff-9e42-a01a147aded3" name="Changes by resgilgen" comment="Changes by resgilgen">
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/css/kata/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +34,12 @@
       <ranges>
         <range start1="2" end1="2" start2="2" end2="5" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
         <range start1="4" end1="5" start2="7" end2="8" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-        <range start1="7" end1="10" start2="10" end2="13" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="11" end1="16" start2="14" end2="17" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="17" end1="18" start2="18" end2="18" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
-        <range start1="24" end1="24" start2="24" end2="33" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="25" end1="26" start2="34" end2="43" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
-        <range start1="27" end1="27" start2="44" end2="56" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+        <range start1="15" end1="19" start2="18" end2="18" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
+        <range start1="34" end1="34" start2="33" end2="34" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+        <range start1="35" end1="38" start2="35" end2="45" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+        <range start1="43" end1="47" start2="50" end2="54" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
+        <range start1="48" end1="48" start2="55" end2="63" changelist="5a5501fd-f0d3-4dd0-b248-7bcebf49ce75" />
+        <range start1="49" end1="50" start2="64" end2="68" changelist="88382832-1095-4bff-9e42-a01a147aded3" />
       </ranges>
     </file>
   </component>
@@ -172,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667551508185</updated>
-      <workItem from="1667551509587" duration="8646000" />
+      <workItem from="1667551509587" duration="9737000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1667551600053</created>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667556186468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="parsen und aufkummulieren von Zahlen">
+      <created>1667563899165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667563899165</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,24 +240,20 @@
     <MESSAGE value="Added calculation for I + I" />
     <MESSAGE value="Changes by resgilgen" />
     <MESSAGE value="introduced letter array" />
-    <option name="LAST_COMMIT_MESSAGE" value="introduced letter array" />
+    <MESSAGE value="parsen und aufkummulieren von Zahlen" />
+    <option name="LAST_COMMIT_MESSAGE" value="parsen und aufkummulieren von Zahlen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java</url>
-          <line>49</line>
+          <line>54</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ch/css/kata/Calculator.java</url>
-          <line>41</line>
+          <line>46</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

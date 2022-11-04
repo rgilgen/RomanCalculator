@@ -32,10 +32,18 @@ public class Calculator {
 
     private Map<String, Integer> accumulateRatingMaps(Map<String, Integer> numberRating1, Map<String, Integer> numberRating2) {
         Map<String, Integer> accumulatedRating = new HashMap<>();
+        int uebertrag = 0;
         for (String romanLetter : romanLetters) {
-            int zahl1  = numberRating1.getOrDefault(romanLetter, 0);
-            int zahl2  = numberRating2.getOrDefault(romanLetter, 0);
-            accumulatedRating.put(romanLetter, zahl1+zahl2);
+            int zahl1 = uebertrag;
+            uebertrag = 0;
+            zahl1 += numberRating1.getOrDefault(romanLetter, 0);
+            int zahl2 = numberRating2.getOrDefault(romanLetter, 0);
+            if (zahl1 + zahl2 > 3) {
+                uebertrag++;
+                accumulatedRating.put(romanLetter, zahl1 + zahl2 - 5);
+            } else {
+                accumulatedRating.put(romanLetter, zahl1 + zahl2);
+            }
         }
         return accumulatedRating;
     }
@@ -46,6 +54,14 @@ public class Calculator {
                .collect(Collectors.toList());
        Collections.reverse(reverseOrderedRomanLetters);
         String romanNumberResult = "";
+
+        for (String romanLetter : romanLetters) {
+            int letterCounter = numberRating.getOrDefault(romanLetter, 0);
+            if (letterCounter < 0) {
+                romanNumberResult += romanLetter.repeat(letterCounter*-1);
+            }
+        }
+
         for (String romanLetter : reverseOrderedRomanLetters) {
             romanNumberResult += romanLetter.repeat(numberRating.getOrDefault(romanLetter, 0));
         }
