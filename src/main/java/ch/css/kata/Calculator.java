@@ -24,21 +24,34 @@ public class Calculator {
         Map<String, Integer> numberRating = new HashMap<>();
         for (int charPosition = 0; charPosition < romanNumber.length(); charPosition++) {
             String actualChar = romanNumber.substring(charPosition, charPosition + 1);
-
-            numberRating.put(actualChar, numberRating.getOrDefault(actualChar, 0) + 1);
+            int addCounter = 1;
+            if (hasMajorLetterFollowing(actualChar, romanNumber.substring(charPosition+1))) {
+                addCounter = -1;
+            }
+            numberRating.put(actualChar, numberRating.getOrDefault(actualChar, 0) + addCounter);
         }
         return numberRating;
+    }
+
+    private boolean hasMajorLetterFollowing(String currentChar, String siblingString) {
+        if (siblingString.isBlank()) {
+            return false;
+        }
+        String siblingChar = siblingString.substring(0,1);
+        int indexOfCurrentChar = romanLetters.indexOf(currentChar);
+        int indexOfSiblingChar = romanLetters.indexOf(siblingChar);
+
+        return indexOfCurrentChar < indexOfSiblingChar;
     }
 
     private Map<String, Integer> accumulateRatingMaps(Map<String, Integer> numberRating1, Map<String, Integer> numberRating2) {
         Map<String, Integer> accumulatedRating = new HashMap<>();
         int uebertrag = 0;
         for (String romanLetter : romanLetters) {
-            int zahl1 = uebertrag;
+            int letterCounter1 = numberRating1.getOrDefault(romanLetter, 0) + uebertrag;
+            int letterCounter2 = numberRating2.getOrDefault(romanLetter, 0);
             uebertrag = 0;
-            zahl1 += numberRating1.getOrDefault(romanLetter, 0);
-            int zahl2 = numberRating2.getOrDefault(romanLetter, 0);
-            if (zahl1 + zahl2 > 3) {
+            if (letterCounter1 + letterCounter2 > 3) {
                 uebertrag++;
                 accumulatedRating.put(romanLetter, zahl1 + zahl2 - 5);
             } else {
